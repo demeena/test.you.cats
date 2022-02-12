@@ -1,0 +1,94 @@
+body {
+    background-color: #fff0d7;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    background-image: url(img/bacground_cat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.answer li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #c69e6b;
+    border: 2px #4c2e23 dotted ;
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+.answer {
+    margin-top: 40px;
+    padding-left: 0;
+}
+.question {
+    font-size: 30px;
+    background-color: #b86a6a;
+    border: 5px #4c2e23 double;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+.result {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #4c2e23;
+    background-color: #fee870;
+    border: 1px #4c2e23 solid;
+    height: 300px;
+    width: 670px;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.cats {
+    width: 300px;
+    height: auto;
+    margin-bottom: 200px;
+}
+.answer li:focus{
+   text-transform: uppercase;
+}
+.answer li:hover,
+.answer li:focus {
+  transform: scale(1.1);
+}
+
+.haeder_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #4c2e23;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 500px;
+}
+
+@media all and (max-width:360px) {
+    .conteiners {
+        max-width: 150px;
+    }
+    .question {
+        font-size: 12px;
+    }
+    .answer li {
+        font-size: 10px;
+    }
+}
