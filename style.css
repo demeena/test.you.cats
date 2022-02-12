@@ -91,4 +91,16 @@ h1 {
     .answer li {
         font-size: 10px;
     }
+    .result {
+        max-width: 100px;
+        height: 100px;
+        font-size: 10px;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .cats  {
+        width: 70px;
+        height: 70px;
+    }
 }
